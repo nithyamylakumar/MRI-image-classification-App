@@ -1,31 +1,18 @@
 import streamlit as st
-from streamlit_lottie import st_lottie
 import pandas as pd
 import numpy as np
-import json
 import matplotlib.pyplot as plt
 import cv2
 import keras
-import tensorflow as tf
-import scipy
 import os
 from tqdm import tqdm
-from skimage import io
 import random
 import glob
 from keras.applications import imagenet_utils
 from keras.models import load_model
-from sklearn.preprocessing import StandardScaler, normalize
 from IPython.display import display
 from PIL import Image
 from tensorflow.keras.utils import img_to_array
-from tensorflow.keras.preprocessing.image import load_img,ImageDataGenerator, array_to_img
-from tensorflow.keras.applications import EfficientNetB1
-from tensorflow.keras.models import Model
-from tensorflow.keras.layers import Flatten,Dense,Conv2D,Dropout,GlobalAveragePooling2D
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.callbacks import ModelCheckpoint,EarlyStopping
-import imutils 
 import random
 
 ##################################################################################################################################################################
